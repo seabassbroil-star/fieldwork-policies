@@ -1,0 +1,16 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #18231f; background: #f5f3ed; }
+body { margin: 0; }
+main { background: #fffefa; border: 1px solid #d8dad3; margin: 48px auto; max-width: 760px; padding: clamp(28px, 6vw, 64px); }
+h1 { font-size: clamp(36px, 7vw, 64px); letter-spacing: -.04em; margin-top: 24px; }
+h2 { font-size: 20px; margin-top: 32px; }
+p { line-height: 1.7; }
+a { color: #285d45; }
+nav { display: flex; gap: 24px; margin: 32px 0; }
+.notice { border-left: 3px solid #ef5b2a; padding-left: 16px; }
+.eyebrow { color: #68736e; font-size: 11px; font-weight: 700; letter-spacing: .14em; }
+.lede { color: #4e5b56; font-size: 18px; }
+.policy-grid { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; margin: 36px 0; }
+.policy-card { border: 1px solid #d8dad3; display: grid; gap: 8px; padding: 22px; text-decoration: none; }
+.policy-card strong { font-size: 18px; }
+.policy-card span { color: #68736e; line-height: 1.5; }
+@media (max-width: 600px) { main { margin: 0; } .policy-grid { grid-template-columns: 1fr; } }
